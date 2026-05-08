@@ -2254,6 +2254,7 @@ DEVICES += [{
         BaseConv("heart_rate", "sensor", entity={"icon": "mdi:heart-pulse", "units": "bpm"}),
         BaseConv("impedance_low", "sensor", entity={"icon": "mdi:omega", "units": "ohm"}),
         BaseConv("impedance_high", "sensor", entity={"icon": "mdi:omega", "units": "ohm"}),
+        BaseConv("profile_id", "sensor", mi="11.e.1022.p.1", entity={"icon": "mdi:identifier", "name": "Profile ID"}),
         BLEScaleS400("raw_data", mi="11.e.1022.p.2"),
         BaseConv("timestamp", mi="11.e.1022.p.3"),
     ],
